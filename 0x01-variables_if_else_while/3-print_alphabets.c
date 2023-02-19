@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int m,n;
+	int m, n;
 
 	m = 97;
 	n = 65;
@@ -21,7 +21,6 @@ int main(void)
 		m++;
 	}
 	
-
 	while (n < 91)
 	{
 		putchar(n);
