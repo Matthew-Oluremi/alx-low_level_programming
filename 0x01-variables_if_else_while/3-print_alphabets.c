@@ -20,7 +20,6 @@ int main(void)
 		putchar(m);
 		m++;
 	}
-	
 	while (n < 91)
 	{
 		putchar(n);
