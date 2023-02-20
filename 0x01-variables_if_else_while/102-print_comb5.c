@@ -43,6 +43,6 @@ int main(void)
 		}
 		m++;
 	}
-	putchar(10);			
+	putchar(10);
 	return (0);
 }
