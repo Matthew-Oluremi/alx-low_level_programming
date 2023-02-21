@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * main - print alphabelt
- *
- * Description: print alphabelt of letters
+ * print_alphabet - print alphabet of letters
  *
  * Return: void
  */
