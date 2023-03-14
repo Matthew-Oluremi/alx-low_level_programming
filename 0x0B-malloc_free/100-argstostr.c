@@ -1,5 +1,5 @@
-#include <stdlib.h>
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * argstostr - A function that concatenates all the arguments.
@@ -35,7 +35,7 @@ char *argstostr(int ac, char **av)
 		return (NULL);
 	}
 
-	for (b = c = d = 0; d < c; c++, d++)
+	for (b = c = d = 0; d < a; c++, d++)
 	{
 		if (av[b][c] == '\0')
 		{
