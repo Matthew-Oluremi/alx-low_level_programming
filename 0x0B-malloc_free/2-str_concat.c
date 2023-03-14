@@ -21,10 +21,12 @@ char *str_concat(char *s1, char *s2)
 		s2 = "";
 
 	for (a = 0; s1[a] != '\0'; a++)
+		;
 
-		for (b = 0; s2[b] != '\0'; b++)
+	for (b = 0; s2[b] != '\0'; b++)
+		;
 
-			ptr = malloc(sizeof(char) * (a + b + 1));
+	ptr = malloc(sizeof(char) * (a + b + 1));
 
 	if (ptr == NULL)
 	{
